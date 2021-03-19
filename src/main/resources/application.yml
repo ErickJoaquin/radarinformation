@@ -1,0 +1,13 @@
+server:
+  port: 9234
+
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: update
+  datasource:
+    initialization-mode: always
+    platform: postgres
+    url: jdbc:postgresql://localhost:5432/postgres
+    username: postgres
+    password: root
